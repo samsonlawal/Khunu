@@ -17,35 +17,33 @@ export default function () {
           </p>
         </div>
         {/* Topics */}
-        <div className="w-full lg:w-11/12 flex flex-row justify-center items-center mb-16">
-          <div className="w-1/3 flex flex-col justify-center items-center">
+        <div className="w-full lg:w-11/12 flex flex-row flex-wrap justify-center items-center mb-16">
+          <div className="w-1/2 mb-16 md:w-1/3 flex flex-col justify-center items-center text-center">
             <img src={atom} alt="" className="pb-5 w-10" />
             <p className="text-sm lg:text-base font-semibold">
               Artificial Intelligence
             </p>
           </div>
-          <div className="w-1/3 flex flex-col justify-center items-center">
+          <div className="w-1/2 mb-16 md:w-1/3 flex flex-col justify-center items-center">
             <img src={dna} alt="" className="pb-5 w-10" />
             <p className="text-sm lg:text-base font-semibold">
               Medical Science
             </p>
           </div>
-          <div className="w-1/3 flex flex-col justify-center items-center">
+          <div className="w-1/2 mb-16 md:w-1/3 flex flex-col justify-center items-center">
             <img src={chem} alt="" className="pb-5 w-10" />
             <p className="text-sm lg:text-base font-semibold">Chemistry</p>
           </div>
-        </div>
 
-        <div className="w-full flex flex-row justify-center items-center mb-16">
-          <div className="w-1/3 flex flex-col justify-center items-center">
+          <div className="w-1/2 mb-16 md:w-1/3 flex flex-col justify-center items-center">
             <img src={solar} alt="" className="pb-5 w-10" />
             <p className="text-sm lg:text-base font-semibold">Engineering</p>
           </div>
-          <div className="w-1/3 flex flex-col justify-center items-center">
+          <div className="w-1/2 mb-16 md:w-1/3 flex flex-col justify-center items-center">
             <img src={agric} alt="" className="pb-4 w-8" />
             <p className="text-sm lg:text-base font-semibold">Agriculture</p>
           </div>
-          <div className="w-1/3 flex flex-col justify-center items-center">
+          <div className="w-1/2 mb-16 md:w-1/3 flex flex-col justify-center items-center">
             <img src={physics} alt="" className="pb-5 w-10" />
             <p className="text-sm lg:text-base font-semibold">Physics</p>
           </div>
