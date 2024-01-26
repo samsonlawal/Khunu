@@ -1,7 +1,7 @@
 export default function Form() {
   return (
     <div className="w-full px-4 py-20 lg:py-20 flex flex-col justify-center items-center bg-palelip">
-      <div className="p-4 lg:p-20 flex flex-col justify-center items-center bg-white border-2 rounded-xl border-lightlipstick">
+      <div className="px-4 py-14 lg:p-20 flex flex-col justify-center items-center bg-white border-2 rounded-xl border-lightlipstick">
         <div className="text-center mb-8">
           <h1 className="text-3xl lg:text-4xl font-bold text-lipstick">
             Khunu is Launching Soon
