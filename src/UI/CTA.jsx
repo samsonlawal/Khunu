@@ -5,8 +5,8 @@ import gpod from "../img/gpod.png";
 
 export default function CTA() {
   return (
-    <div className="w-full my-10 px-8 py-16 lg:px-28 flex justify-start items-center lg:h-screen bg-blue-100">
-      <div className="p-10 w-128 bg-white">
+    <div className="w-full my-10 px-4 py-16 lg:px-28 flex justify-start items-center lg:h-screen bg-blue-100">
+      <div className="py-10 px-4 w-128 bg-white">
         <h1 className="text-3xl font-bold">Kuhnu Podcasts</h1>
         <p className="py-4 text-graylip">
           We invite industry professionals and researchers across diverse fields
