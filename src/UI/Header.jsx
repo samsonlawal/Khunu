@@ -2,7 +2,7 @@ import lady from "../img/headerLady.png";
 
 export default function Header() {
   return (
-    <div className="h-fit md:h-82 py-10 lg:p-10 xl:px-20 xl:py-0 w-full flex flex-col lg:flex-row justify-center items-center px-10 mb-20 lg:mb-0 bg-violet-600">
+    <div className="h-fit md:h-82 py-10 lg:p-10 xl:px-20 xl:py-0 w-full flex flex-col lg:flex-row justify-center items-center px-5 mb-20 lg:mb-0 bg-violet-600">
       {/* Image */}
       <div className="pb-10 md:pb-0 w-full flex justify-center items-center">
         <img src={lady} alt="" className="md:w-7/12 lg:w-9/12 w-96" />
@@ -23,7 +23,7 @@ export default function Header() {
         </div>
 
         {/* Form */}
-        <div className="w-11/12 lg:w-98 flex justify-between px-2 items-center py-1 bg-lightlipstick border-2 border-lipstick rounded-lg">
+        {/* <div className="w-11/12 lg:w-98 flex justify-between px-2 items-center py-1 bg-lightlipstick border-2 border-lipstick rounded-lg">
           <input
             type="text"
             placeholder="Enter Keyword"
@@ -32,7 +32,7 @@ export default function Header() {
           <button className="w-fit m-1 px-2 py-2 text-xs font-semibold rounded-lg bg-lipstick text-white ">
             Search Publications
           </button>
-        </div>
+        </div> */}
       </div>
     </div>
   );
