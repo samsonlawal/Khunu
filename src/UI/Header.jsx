@@ -2,7 +2,7 @@ import lady from "../img/headerLady.png";
 
 export default function Header() {
   return (
-    <div className="h-fit md:h-82 lg:p-10 xl:px-20 xl:py-0 w-full flex flex-col lg:flex-row justify-center items-center px-4 mb-20 lg:mb-0">
+    <div className="h-fit md:h-82 lg:p-10 xl:px-20 xl:py-0 w-full flex flex-col lg:flex-row justify-center items-center px-10 mb-20 lg:mb-0">
       <div className="pb-10 md:pb-0 w-full flex justify-center items-center">
         <img src={lady} alt="" className="md:w-7/12 lg:w-9/12 w-96" />
       </div>
@@ -14,8 +14,8 @@ export default function Header() {
           </h1>
 
           <p className="py-5 md:text-lg text-graylip">
-            Get access to over 10,000 journal publications, r33esearch papers
-            from verified publishers across the world.
+            Get access to over 10,000 journal publications, research papers from
+            verified publishers across the world.
           </p>
         </div>
         <div className="w-11/12 lg:w-98 flex justify-between px-2 items-center py-1 bg-lightlipstick border-2 border-lipstick rounded-lg">
