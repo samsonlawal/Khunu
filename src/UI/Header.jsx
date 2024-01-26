@@ -27,7 +27,7 @@ export default function Header() {
           <input
             type="text"
             placeholder="Enter Keyword"
-            className="w-96 px-2 rounded-lg mb-1 md:mb-0 md:px-0.5 py-3 md:w-64 md:bg-transparent focus:outline-none bg-lightlipstick border-2 border-lipstick md:border-0 md:bg-none"
+            className="px-2 w-80 rounded-lg mb-1 md:mb-0 md:px-0.5 py-3 md:w-64 md:bg-transparent focus:outline-none bg-lightlipstick border-2 border-lipstick md:border-0 md:bg-none"
           />
           <button className="w-fit m-1 px-2 py-2 text-sm font-semibold rounded-lg bg-lipstick text-white ">
             Search Publications
