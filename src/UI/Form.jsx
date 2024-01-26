@@ -18,27 +18,31 @@ export default function Form() {
             <input
               type="text"
               placeholder="First Name"
-              className="px-5 py-3 w-11/12 md:w-72 md:mx-1.5 rounded-xl bg-pink-100 border-2 border-lightlipstick focus:outline-none mb-2"
+              className="px-5 py-3 w-11/12 md:w-72 md:mx-1.5 rounded-xl bg-pink-100 border-2 border-lightlipstick focus:outline-none mb-6"
             />
 
             <input
               type="text"
               placeholder="Last Name"
-              className="px-5 py-3 w-11/12 md:w-72 md:mx-1.5 rounded-xl bg-pink-100 border-2 border-lightlipstick focus:outline-none mb-2"
+              className="px-5 py-3 w-11/12 md:w-72 md:mx-1.5 rounded-xl bg-pink-100 border-2 border-lightlipstick focus:outline-none mb-6"
             />
           </div>
 
           <input
             type="text"
             placeholder="Country"
-            className="px-5 py-3 w-11/12 md:w-140 rounded-xl bg-pink-100 border-2 border-lightlipstick focus:outline-none mb-2"
+            className="px-5 py-3 w-11/12 md:w-140 rounded-xl bg-pink-100 border-2 border-lightlipstick focus:outline-none mb-6"
           />
 
           <input
             type="email"
             placeholder="Email Address"
-            className="px-5 py-3 w-11/12 md:w-140 rounded-xl bg-pink-100 border-2 border-lightlipstick focus:outline-none mb-2"
+            className="px-5 py-3 w-11/12 md:w-140 rounded-xl bg-pink-100 border-2 border-lightlipstick focus:outline-none mb-6"
           />
+
+          <button className="bg-lipstick py-3 px-10 rounded-xl text-white font-semibold hover:bg-red-700">
+            Join Waitlist
+          </button>
         </div>
       </div>
     </div>
