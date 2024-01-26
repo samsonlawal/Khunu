@@ -35,12 +35,12 @@ export default function () {
             <p className="text-sm lg:text-base font-semibold">Chemistry</p>
           </div>
 
-          <div className="w-1/2 mb-16 md:w-1/3 flex flex-col justify-center items-center">
+          <div className="w-1/2 mb-16 md:w-1/3 flex flex-col justify-between items-center">
             <img src={solar} alt="" className="pb-5 w-10" />
             <p className="text-sm lg:text-base font-semibold">Engineering</p>
           </div>
-          <div className="w-1/2 md:mb-16 md:w-1/3 flex flex-col justify-center items-center">
-            <img src={agric} alt="" className="pb-4 w-8" />
+          <div className="w-1/2 md:mb-16 md:w-1/3 flex flex-col justify-between items-center">
+            <img src={agric} alt="" className="pb-6 w-8" />
             <p className="text-sm lg:text-base font-semibold">Agriculture</p>
           </div>
           <div className="w-1/2 md:mb-16 md:w-1/3 flex flex-col justify-center items-center">
