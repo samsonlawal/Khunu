@@ -9,7 +9,7 @@ export default function Header() {
       </div>
 
       {/* Text */}
-      <div className="w-11/12 md:w-10/12 px-3 lg:px-0 lg:w-full flex items-center justify-center lg:items-start lg:justify-start flex-col">
+      <div className="w-11/12 md:w-10/12 lg:px-0 lg:w-full flex items-center justify-center lg:items-start lg:justify-start flex-col">
         <div className="flex flex-col justify-center items-center lg:justify-start lg:text-start text-center">
           <h1 className=" text-2xl lg:text-4xl font-bold text-lipstick">
             AI Digital Repository Helping People Explore, Discover and Share
