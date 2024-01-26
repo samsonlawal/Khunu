@@ -2,7 +2,7 @@ import lady from "../img/headerLady.png";
 
 export default function Header() {
   return (
-    <div className="h-fit md:h-82 py-10 lg:p-10 xl:px-20 xl:py-0 w-full flex flex-col lg:flex-row justify-center items-center px-5 mb-20 lg:mb-0 bg-violet-600">
+    <div className="h-fit md:h-82 py-10 lg:p-10 xl:px-20 xl:py-10 w-full flex flex-col lg:flex-row justify-center items-center px-5 mb-20 lg:mb-0">
       {/* Image */}
       <div className="pb-10 md:pb-0 w-full flex justify-center items-center">
         <img src={lady} alt="" className="md:w-7/12 lg:w-9/12 w-96" />
