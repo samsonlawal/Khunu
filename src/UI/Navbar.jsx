@@ -2,7 +2,7 @@ import React from "react";
 
 export default function Navbar() {
   return (
-    <nav className="md:px-20 h-20 px-10 flex justify-between items-center text-white">
+    <nav className="md:px-20 h-20 px-4 flex justify-between items-center text-white">
       <label className="font-poppins text-3xl font-bold text-lipstick font">
         Khunu
       </label>
