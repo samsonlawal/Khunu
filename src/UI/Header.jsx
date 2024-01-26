@@ -23,16 +23,16 @@ export default function Header() {
         </div>
 
         {/* Form */}
-        {/* <div className="w-11/12 lg:w-98 flex justify-between px-2 items-center py-1 bg-lightlipstick border-2 border-lipstick rounded-lg">
+        <div className="w-full md:w-fit lg:w-98 flex flex-col md:flex-row md:justify-between px-2 items-center py-1 md:bg-lightlipstick md:border-2 border-lipstick rounded-lg">
           <input
             type="text"
             placeholder="Enter Keyword"
-            className="px-0.5 py-2 w-64 bg-transparent focus:outline-none"
+            className="w-96 px-2 rounded-lg mb-1 md:mb-0 md:px-0.5 py-3 md:w-64 md:bg-transparent focus:outline-none bg-lightlipstick border-2 border-lipstick md:border-0 md:bg-none"
           />
-          <button className="w-fit m-1 px-2 py-2 text-xs font-semibold rounded-lg bg-lipstick text-white ">
+          <button className="w-fit m-1 px-2 py-2 text-sm font-semibold rounded-lg bg-lipstick text-white ">
             Search Publications
           </button>
-        </div> */}
+        </div>
       </div>
     </div>
   );
