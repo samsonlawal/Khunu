@@ -8,7 +8,7 @@ import lady from "../img/girlAcrobat.png";
 
 export default function () {
   return (
-    <div className="w-full px-4 lg:px-10 xl:px-20 py-20 flex items-center justify-center lg:flex-row">
+    <div className="w-full px-4 lg:px-10 xl:px-20 py-20 flex items-center justify-center lg:flex-row bg-red-300">
       <div className="w-full px-4 flex flex-col justify-center items-center lg:w-1/2">
         <div className="border-l-4 border-lipstick px-2 my-16 xl:w-11/12">
           <p className="text-2xl xl:text-3xl font-bold">
