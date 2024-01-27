@@ -15,7 +15,7 @@ export default function CTA() {
           We invite industry professionals and researchers across diverse fields
           of study to discuss about their work.
         </p>
-        <button className="text-start bg-lipstick py-2 px-2 my-2 text-sm md:px-5 rounded-3xl text-white font-open">
+        <button className="bg-lipstick py-2 px-2 my-2 text-sm md:px-5 rounded-3xl text-white font-open">
           Coming soon on the following platforms
         </button>
         <div className="w-full flex flex-row justify-start items-center py-4">
