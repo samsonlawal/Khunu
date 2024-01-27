@@ -9,16 +9,16 @@ export default function CTA() {
       className="w-full my-10 px-4 py-16 lg:px-28 flex justify-start items-center lg:h-screen"
       style={{ backgroundImage: `url(${man})` }}
     >
-      <div className="py-10 px-4 w-128 bg-white">
-        <h1 className="text-3xl font-bold">Kuhnu Podcasts</h1>
-        <p className="py-4 text-graylip">
+      <div className="flex flex-col justify-center items-center md:justify-normal md:items-start py-10 px-6 lg:px-10 w-128 bg-white">
+        <h1 className="text-3xl font-bold font-mont">Kuhnu Podcasts</h1>
+        <p className="py-4 text-graylip font-open">
           We invite industry professionals and researchers across diverse fields
           of study to discuss about their work.
         </p>
-        <button className="bg-lipstick py-2 px-3 text-sm md:px-5 rounded-3xl text-white">
+        <button className="bg-lipstick py-2 px-3 text-sm md:px-5 rounded-3xl text-white font-open">
           Coming soon on the following platforms
         </button>
-        <div className="w-full flex flex-row justify-start items-center py-4">
+        <div className="w-full flex flex-row justify-center md:justify-start items-center py-4">
           <img src={ipod} alt="" className="w-7 mr-2 hover:cursor-pointer" />
           <img src={spotify} alt="" className="w-7 mr-2 hover:cursor-pointer" />
           <img src={gpod} alt="" className="w-7 mr-2 hover:cursor-pointer" />

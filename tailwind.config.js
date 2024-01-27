@@ -9,11 +9,7 @@ export default {
         graylip: "#595959",
         palelip: "#FDFFF6",
       },
-      fontFaimly: {
-        montserrat: ["Montserrat", "sans-serif"],
-        open: ["Open Sans", "sans-serif"],
-        poppins: ["Poppins", "sans-serif"],
-      },
+
       screens: {
         sm: "576px",
         md: "665px",
@@ -27,6 +23,12 @@ export default {
         140: "37rem", // Another example
         // ...
       },
+    },
+
+    fontFamily: {
+      mont: ["Montserrat", "sans-serif"],
+      open: ["Open Sans", "sans-serif"],
+      pop: ["Poppins", "sans-serif"],
     },
   },
   plugins: [],
