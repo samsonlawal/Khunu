@@ -10,9 +10,9 @@ export default function Footer() {
 
         {/* socials */}
         <div className=" md:pb-2 lg:pb-0 md:pl-10">
-          <i class="fa-brands fa-facebook-f text-lg text-lipstick mr-2 md:mr-6"></i>
-          <i class="fa-brands fa-twitter text-lg text-lipstick mr-2 md:mr-6"></i>
-          <i class="fa-brands fa-instagram text-lg text-lipstick mr-2 md:mr-6"></i>
+          <i class="fa-brands fa-facebook-f text-lg text-lipstick mr-8 md:mr-6"></i>
+          <i class="fa-brands fa-twitter text-lg text-lipstick mr-8 md:mr-6"></i>
+          <i class="fa-brands fa-instagram text-lg text-lipstick mr-8 md:mr-6"></i>
         </div>
       </div>
 
