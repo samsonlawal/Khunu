@@ -16,7 +16,7 @@ export default function Header() {
             Relevant Research papers
           </h1>
 
-          <p className="py-5 md:text-lg text-graylip font-open">
+          <p className="py-5 pr-10 md:text-lg text-graylip font-open">
             Get access to over 10,000 journal publications, research papers from
             verified publishers across the world.
           </p>
